@@ -2,7 +2,7 @@
 
 (#%require rackunit)
 
-(/ (+ 
+(define solution (/ (+ 
 	5 
 	4 
 	(- 
@@ -15,4 +15,6 @@
 	(* 
 		3 
 		(- 6 2)
-		(- 2 7)))
+		(- 2 7))))
+
+check-equal? solution -37/150
