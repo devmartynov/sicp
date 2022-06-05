@@ -1,6 +1,6 @@
-#lang sicp
+#lang racket
 
-(#%require rackunit)
+(require rackunit)
 
 (define (a-plus-abs-b a b) 
 	((if (> b 0) + -) a b))

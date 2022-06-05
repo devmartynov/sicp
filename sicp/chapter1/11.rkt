@@ -1,6 +1,6 @@
-#lang sicp
+#lang racket
 
-(#%require rackunit)
+(require rackunit)
 
 10
 
